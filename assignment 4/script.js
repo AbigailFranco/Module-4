@@ -16,14 +16,3 @@ for (var i = 0; i < names.length; i++) {
 	}
 	else{
 		console.log("Hello "+ names[i])
-	}
-}
-(function(window) {
-	var speakWord = "Hello";
-	var helloSpeaker = function (name) {
-		console.log(speakWord + " " + name);
-	}
-
-	window.helloSpeaker = helloSpeaker;
-
-})(window);
